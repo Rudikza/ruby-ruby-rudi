@@ -4,7 +4,7 @@
   <title><![CDATA[Ruby, Ruby, Rudi.]]></title>
   <link href="http://ruby-ruby-rudi.heroku.com/atom.xml" rel="self"/>
   <link href="http://ruby-ruby-rudi.heroku.com/"/>
-  <updated>2013-11-18T21:28:07+02:00</updated>
+  <updated>2013-11-18T21:46:14+02:00</updated>
   <id>http://ruby-ruby-rudi.heroku.com/</id>
   <author>
     <name><![CDATA[Rudi Kramer]]></name>
@@ -40,7 +40,7 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
-
+<p>removes the deprecation warning and guard/RSpec run as expected.</p>
 ]]></content>
   </entry>
   
