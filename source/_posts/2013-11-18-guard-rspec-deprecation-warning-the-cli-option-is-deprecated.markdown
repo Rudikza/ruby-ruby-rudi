@@ -21,7 +21,7 @@ guard 'rspec', :cli=>'--drb', all_on_start: false, all_after_pass: false do
 with this one:
 
 {% codeblock lang:ruby [Guardfile] %}
-  guard 'rspec', :cmd=>'rpec --drb', all_on_start: false, all_after_pass: false do
+  guard 'rspec', :cmd=>'rspec --drb', all_on_start: false, all_after_pass: false do
 {% endcodeblock %}
 
 removes the deprecation warning and guard/RSpec run as expected.
