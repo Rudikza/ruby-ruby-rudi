@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Ruby, Ruby, Rudi.]]></title>
-  <link href="http://ruby-ruby-rudi.heroku.com/atom.xml" rel="self"/>
-  <link href="http://ruby-ruby-rudi.heroku.com/"/>
-  <updated>2013-11-18T21:46:14+02:00</updated>
-  <id>http://ruby-ruby-rudi.heroku.com/</id>
+  <link href="http://www.ruby-ruby-rudi.net/atom.xml" rel="self"/>
+  <link href="http://www.ruby-ruby-rudi.net/"/>
+  <updated>2013-11-29T08:52:14+02:00</updated>
+  <id>http://www.ruby-ruby-rudi.net/</id>
   <author>
     <name><![CDATA[Rudi Kramer]]></name>
     
@@ -14,10 +14,19 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Gems for Africa]]></title>
+    <link href="http://www.ruby-ruby-rudi.net/blog/2013/11/29/gems-for-africa/"/>
+    <updated>2013-11-29T08:49:41+02:00</updated>
+    <id>http://www.ruby-ruby-rudi.net/blog/2013/11/29/gems-for-africa</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Guard::RSpec DEPRECATION WARNING: The :cli Option Is Deprecated]]></title>
-    <link href="http://ruby-ruby-rudi.heroku.com/blog/2013/11/18/guard-rspec-deprecation-warning-the-cli-option-is-deprecated/"/>
+    <link href="http://www.ruby-ruby-rudi.net/blog/2013/11/18/guard-rspec-deprecation-warning-the-cli-option-is-deprecated/"/>
     <updated>2013-11-18T20:06:45+02:00</updated>
-    <id>http://ruby-ruby-rudi.heroku.com/blog/2013/11/18/guard-rspec-deprecation-warning-the-cli-option-is-deprecated</id>
+    <id>http://www.ruby-ruby-rudi.net/blog/2013/11/18/guard-rspec-deprecation-warning-the-cli-option-is-deprecated</id>
     <content type="html"><![CDATA[<p>So I recently created a new rails 4 app and after doing my usual setup and starting up guard I started getting this deprecation warning.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -36,7 +45,7 @@
 
 <figure class='code'><figcaption><span>[Guardfile] </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="n">guard</span> <span class="s1">&#39;rspec&#39;</span><span class="p">,</span> <span class="ss">:cmd</span><span class="o">=&gt;</span><span class="s1">&#39;rpec --drb&#39;</span><span class="p">,</span> <span class="n">all_on_start</span><span class="p">:</span> <span class="kp">false</span><span class="p">,</span> <span class="n">all_after_pass</span><span class="p">:</span> <span class="kp">false</span> <span class="k">do</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="n">guard</span> <span class="s1">&#39;rspec&#39;</span><span class="p">,</span> <span class="ss">:cmd</span><span class="o">=&gt;</span><span class="s1">&#39;rspec --drb&#39;</span><span class="p">,</span> <span class="n">all_on_start</span><span class="p">:</span> <span class="kp">false</span><span class="p">,</span> <span class="n">all_after_pass</span><span class="p">:</span> <span class="kp">false</span> <span class="k">do</span>
 </span></code></pre></td></tr></table></div></figure>
 
 

@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://ruby-ruby-rudi.heroku.comblog/categories/guard">
+  <link rel="canonical" href="http://www.ruby-ruby-rudi.netblog/categories/guard">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Ruby, Ruby, Rudi." type="application/atom+xml">
@@ -62,7 +62,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:ruby-ruby-rudi.heroku.com" />
+    <input type="hidden" name="q" value="site:www.ruby-ruby-rudi.net" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -116,6 +116,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2013/11/29/gems-for-africa/">Gems for Africa</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2013/11/18/guard-rspec-deprecation-warning-the-cli-option-is-deprecated/">Guard::RSpec DEPRECATION WARNING: The :cli Option Is Deprecated</a>
       </li>
     
@@ -125,6 +129,36 @@
   <h1>About Me</h1>
   <p>My name is <a href="/about">Rudi Kramer</a> and I work as a Software Developer in South Africa.</p>
 </section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/Rudikza">@Rudikza</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'Rudikza',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
 
   
 </aside>

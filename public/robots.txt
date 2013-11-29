@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://ruby-ruby-rudi.heroku.com/sitemap.xml 
+Sitemap: http://www.ruby-ruby-rudi.net/sitemap.xml 
