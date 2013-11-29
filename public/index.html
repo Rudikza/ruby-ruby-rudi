@@ -9,8 +9,7 @@
   <meta name="author" content="Rudi Kramer">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="So our good friends over at Cloud Africa are now hosting a mirror of rubygems. Niiice! To use this repo in your favorite rails project just change &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -107,7 +106,37 @@
   </header>
 
 
-  <div class="entry-content">
+  <div class="entry-content"><p>So our good friends over at <a href="https://www.cloudafrica.net/">Cloud Africa</a> are now hosting a mirror of rubygems. Niiice!</p>
+
+<p>To use this repo in your favorite rails project just change the top line in your Gemfile from this:</p>
+
+<figure class='code'><figcaption><span>[Gemfile] </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">source</span> <span class="s2">&quot;https://rubygems.org&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>to this:</p>
+
+<figure class='code'><figcaption><span>[Gemfile] </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">source</span> <span class="s2">&quot;https://gems.cloudafrica.net&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and prepare to be amazed.</p>
+
+<p>To use this mirror for your command line gems you can do the following:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ gem source -r https://rubygems.org/
+</span><span class='line'>$ gem source -a https://gems.cloudafrica.net/
+</span><span class='line'>$ gem source -a https://rubygems.org/</span></code></pre></td></tr></table></div></figure>
+
+
+<p>First, we remove the official rubygems site, then we add in the cloud africa repo, then add in rubygems again, just in case.</p>
 </div>
   
   
