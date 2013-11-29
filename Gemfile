@@ -1,4 +1,5 @@
-source "https://rubygems.org"
+#source "https://rubygems.org"
+source "https://gems.cloudafrica.net"
 
 ruby '2.0.0'
 
